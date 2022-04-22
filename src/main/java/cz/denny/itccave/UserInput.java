@@ -43,6 +43,7 @@ public class UserInput {
                 }
                 case "3", "s" -> {
                     // do while loop
+                    ConsoleMenu.clearScreen();
                     String uiSearch;
                     do {
                         ConsoleMenu.menuSearch();

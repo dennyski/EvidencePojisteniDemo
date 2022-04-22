@@ -9,9 +9,7 @@ import java.util.Scanner;
  * IOHandler takes care of user data manupulation
  */
 public class IOHandler {
-    //    2do extend data manipulation
     private static final Scanner sc = new Scanner(System.in, StandardCharsets.UTF_8);
-//    private static final DateTimeFormatter FORMAT_DATE = DateTimeFormatter.ofPattern("d'.'M'.'y");
 
     /**
      * Method to create a new insuree

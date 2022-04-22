@@ -31,11 +31,11 @@ public class ConsoleMenu {
                 │ this is an over-ambitious project    │
                 │ for the fact I have been learning    │
                 │ Java development since the New Year  │
-                │\t\t\t\t\t\t\t\t\t   │
-                │\t\t\tDedicated to Zoe\t       │
+                │                                      │
+                │          Dedicated to Zoe            │
                 ├══════════════════════════════════════┤
-                │  I N S U R A N C E\tR E C O R D S  │
-                │\t\t\tby Denny © 2022\t\t\t   │
+                │  I N S U R A N C E    R E C O R D S  │
+                │           by Denny © 2022            │
                 └══════════════════════════════════════┘""";
         System.out.print(cmInfo);
     }
@@ -43,17 +43,17 @@ public class ConsoleMenu {
         String cmInfo = """
 
                 ┌══════════════════════════════════════┐
-                │\t\t\t\t\t\t\t\t\t   │
+                │                                      │
                 │ Press 1 or letter A to create a new  │
                 │ record. Pressing 2 or letter L will  │
                 │ list all the records. 3 or S filters │
                 │ through database by name & surname,  │
                 │ by surname only and by Day of Birth  │
                 │ in day.month.year format.            │
-                │\t\t\t\t\t\t\t\t\t   │
+                │                                      │
                 ├══════════════════════════════════════┤
-                │  I N S U R A N C E\tR E C O R D S  │
-                │\t\t\tby Denny © 2022\t\t\t   │
+                │  I N S U R A N C E    R E C O R D S  │
+                │           by Denny © 2022            │
                 └══════════════════════════════════════┘""";
         System.out.print(cmInfo);
     }
@@ -61,9 +61,9 @@ public class ConsoleMenu {
         String cmConfig = """
 
                 ┌══════════════════════════════════════┐
-                │\t\t\t\t\t\t\t\t\t   │
-                │\t\tUnimplemented  feature\t\t   │
-                │\t\t\t\t\t\t\t\t\t   │
+                │                                      │
+                │        Unimplemented  feature        │
+                │                                      │
                 └══════════════════════════════════════┘""";
         System.out.print(cmConfig);
     }
@@ -86,31 +86,31 @@ public class ConsoleMenu {
         String s = """
 
                 ┌══════════════════════════════════════┐
-                │  I N S U R A N C E\tR E C O R D S  │
+                │  I N S U R A N C E    R E C O R D S  │
                 ├══════════════════════════════════════┤""";
         System.out.print(s);
     }
     private static void printMenuMain() {
         // StringBuilder approach
         StringBuilder sb = new StringBuilder();
-        sb.append("\n│\t\t\t\t\t\t\t\t\t   │");
-        sb.append("\n│ ").append("(A)dd new Insurance Policy").append("\t\t1  │");
-        sb.append("\n│ ").append("(L)ist All Insurance Policies").append("\t\t2  │");
-        sb.append("\n│ ").append("(S)earch for Insurance Policy").append("\t\t3  │");  // by surname, polNo, phoneNo, dob
-        sb.append("\n│ ").append("(E)xit Application").append("\t\t\t\t4  │");
-        sb.append("\n│ ").append("(H)elp (C)onfiguration (I)nfo").append("\t\t   │");
-        sb.append("\n│\t\t\t\t\t\t\t\t\t   │");
+        sb.append("\n│                                      │");
+        sb.append("\n│ ").append("(A)dd new Insurance Policy").append("        1  │");
+        sb.append("\n│ ").append("(L)ist All Insurance Policies").append("     2  │");
+        sb.append("\n│ ").append("(S)earch for Insurance Policy").append("     3  │");  // by surname, polNo, phoneNo, dob
+        sb.append("\n│ ").append("(E)xit Application").append("                4  │");
+        sb.append("\n│ ").append("(H)elp (C)onfiguration (I)nfo").append("        │");
+        sb.append("\n│                                      │");
         String cmMain = sb.toString();
         System.out.print(cmMain);
     }
     private static void printMenuSearch() {
         // Inline String
-        String s=   "\n│\t\t\t\t\t\t\t\t\t   │" +
-                    "\n│ " + "Filter by\t" + "(N)ame + Surname" + "\t\t1  │" +
-                    "\n│ " + "\t\t\t" + "(S)urname" + "\t\t\t\t2  │" +
-                    "\n│ " + "\t\t\t" + "(D)ay of Birth" + "\t\t\t3  │" +
-                    "\n│ " + "Return to (M)ain Menu" + "\t\t\t\t4  │" +
-                    "\n│\t\t\t\t\t\t\t\t\t   │";
+        String s=   "\n│                                      │" +
+                    "\n│ " + "Filter by " + "(N)ame + Surname" + "        1  │" +
+                    "\n│ " + "          " + "(S)urname" + "               2  │" +
+                    "\n│ " + "          " + "(D)ay of Birth" + "          3  │" +
+                    "\n│ " + "Return to (M)ain Menu" + "             4  │" +
+                    "\n│                                      │";
         System.out.print(s);
     }
     private static void printMenuTime() {
@@ -125,11 +125,11 @@ public class ConsoleMenu {
     private static void printMenuExit() {
         String s = """
 
-                │\t\t\t\t\t\t\t\t\t   │
-                │\tThanks for using the application   │
-                │\t Your interest is appreciated\t   │
-                │\t\t\tby Denny © 2022\t\t\t   │
-                │\t\t\t\t\t\t\t\t\t   │""";
+                │                                      │
+                │   Thanks for using the application   │
+                │     Your interest is appreciated     │
+                │           by Denny © 2022            │
+                │                                      │""";
         System.out.print(s);
     }
 
